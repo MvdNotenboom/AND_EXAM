@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    Menu button placed in the top toolbar of the relief section for navigation back to the MainActivity
+    -->
+    <item
+        android:id="@+id/return_main"
+        android:icon="@drawable/ic_back"
+        android:title="back home"
+        app:showAsAction="ifRoom" />
+
+</menu>

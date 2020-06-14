@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+        Menu buttons placed in the top toolbar for navigation
+    -->
+    <item
+        android:id="@+id/delete_all_items"
+        android:title="@string/delete_all_hint"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/relief"
+        android:title="@string/relief"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/fragment"
+        android:title="fragment"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/maps"
+        android:title="maps"
+        app:showAsAction="never"
+        />
+
+</menu>

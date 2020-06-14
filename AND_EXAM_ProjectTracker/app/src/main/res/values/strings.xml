@@ -1,0 +1,22 @@
+<resources>
+    <!--
+    String resources to avoid hardcoded string for easy translation
+    -->
+    <string name="app_name">Project_Tracker</string>
+    <string name="title">Item title</string>
+    <string name="description">Item description</string>
+    <string name="type">Type</string>
+    <string name="add_item_text">Inputform for list items</string>
+    <string name="missing_info">Make sure that all fields are filled in</string>
+    <string name="delete_item">Item is deleted</string>
+    <string name="delete">Delete item</string>
+    <string name="delete_all">All items are deleted</string>
+    <string name="delete_all_hint">DELETE all items!</string>
+    <string name="item_saved">Item has been saved</string>
+    <string name="update_fail">Failed to update item</string>
+    <string name="update_succes">Item updated</string>
+    <string name="item_saved_fail">Failed to save item</string>
+    <string name="relief">Frustration relief</string>
+    <string name="fragment_title">Kittens &lt;&gt; Puppys</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

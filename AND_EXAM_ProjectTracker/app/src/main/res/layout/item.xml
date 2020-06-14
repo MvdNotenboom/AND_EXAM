@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android.layout_marginEnd="8dp"
+    android.layout_marginStart="8dp"
+    android.layout_marginTop="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--
+    Card item for the recyclerview in the main section
+    -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/text_view_priority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="false"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/button_project_delete"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/text_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toStartOf="@id/text_view_priority"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/text_view_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_priority"
+            android:layout_alignParentEnd="false"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/button_project_delete"
+            android:text="@string/type" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/button_project_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/text_view_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="false"
+            android:layout_toStartOf="@id/text_view_type"
+            android:text="@string/description" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

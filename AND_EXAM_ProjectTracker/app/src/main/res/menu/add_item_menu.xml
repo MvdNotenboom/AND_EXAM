@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+        Menu buttons placed in the top toolbar for navigation
+    -->
+    <item
+        android:id="@+id/save_item"
+        android:icon="@drawable/ic_add"
+        android:title="Save"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/return_main"
+        android:icon="@drawable/ic_back"
+        android:title="back home"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
